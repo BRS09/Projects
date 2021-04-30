@@ -1,2 +1,2 @@
 # startofjourney
-Freshman year computer science assignments/projects.
+Freshman year computer science projects.
