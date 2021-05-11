@@ -1,2 +1,1 @@
-# startofjourney
-Freshman year computer science projects.
+This repository is for building my C++ knowledge by creating random projects.
