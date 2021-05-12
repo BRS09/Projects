@@ -29,6 +29,7 @@ struct studentType
 	string email;
 	double GPA = 0.0;
 	enum programType {CSCI, DBMS, INFM, SDEV};
+	programType major;
 };
 
 //function prototypes.
@@ -91,6 +92,7 @@ void readProgramGPA(ifstream& in, studentType list[], int students)
 	//declare id and program.
 	int id = 0;
 	char course;
+	studentType major;
 
 	//outer for loop that increments through the array.
 	for (int i = 0; i < students; i++)
@@ -120,10 +122,10 @@ void readProgramGPA(ifstream& in, studentType list[], int students)
 		//then the program matches the character in the file to the program stored in the struct above.
 		switch(course)
 		{
-		    case 'C': course = studentType::CSCI; break;
-		    case 'S': course = studentType::SDEV; break;
-		    case 'D': course = studentType::DBMS; break;
-		    case 'I': course = studentType::INFM; break;
+		    case 'C': list[i].major = major.CSCI; break;
+		    case 'S': list[i].major = major.SDEV; break;
+		    case 'D': list[i].major = major.DBMS; break;
+		    case 'I': list[i].major = major.INFM; break;
 		}
 
 		//after finding the program the students in, the program moves on and stores the students gpa.
