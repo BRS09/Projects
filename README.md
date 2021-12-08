@@ -1,1 +1,1 @@
-This repository is for building my C++ knowledge by creating random projects.
+This repository is for building my web and software development skills.
