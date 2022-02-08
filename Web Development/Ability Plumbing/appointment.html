@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ability Plumbing :: Appointments</title>
+    <link rel="stylesheet" href="ability2.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="ability.js"></script>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">
+        <img
+          src="pictures/abilitylogo.png"
+          alt="pipe wrench with ability above and plumbing below"
+        />
+      </a>
+      <nav class="index-nav">
+        <p>
+          5065 E County Rd 950 N, Mooreland, IN 47360
+          <span></span
+          ><a href="tel:765-999-9999"
+            ><span class="smartphone">Call 765-999-9999</span></a
+          >
+          <span class="desktop">Call 765-999-9999</span>
+        </p>
+        <ul>
+          <li><a href="aboutability.html">About Ability</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="appointment.html">Book an Appointment</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <main class="appointment">
+        <div
+          id="toastDiv"
+          class="position-fixed bottom-0 end-0 p-3"
+          style="z-index: 11"
+        >
+          <div
+            id="liveToast"
+            class="toast"
+            role="alert"
+            aria-live="assertive"
+            aria-atomic="true"
+            data-bs-autohide="false"
+          >
+            <div class="toast-header">
+              <strong class="me-auto">Ability Alert</strong>
+              <small id="time"></small>
+              <button
+                type="button"
+                class="btn-close"
+                id="close-button"
+                data-bs-dismiss="toast"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="toast-body">
+              <button
+                onclick="darkTheme();"
+                class="btn btn-outline-primary d-block mx-auto"
+              >
+                Dark Mode
+              </button>
+            </div>
+          </div>
+        </div>
+        <h1>Book an Appointment</h1>
+        <div class="appointment-container">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            dapibus mauris a orci consectetur, vel malesuada tellus volutpat.
+            Donec a tellus nec metus elementum suscipit eu vitae neque. <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            dapibus mauris a orci consectetur, vel malesuada tellus volutpat.
+            Donec a tellus nec metus elementum suscipit eu vitae neque.
+          </p>
+          <div class="appointment-buttons">
+            <button>Book by Phone</button>
+            <button>Emergency Services</button>
+            <button>Book Online</button>
+            <form
+              method="post"
+              action="https://webdevbasics.net/scripts/demo.php"
+            >
+              <label for="firstname"
+                >First Name:<input
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                  required
+              /></label>
+              <label for="lastname"
+                >Last Name:<input
+                  type="text"
+                  id="lastname"
+                  name="lastname"
+                  required
+              /></label>
+              <label for="phonenumber"
+                >Phone Number:<input
+                  type="tel"
+                  id="phonenumber"
+                  name="phonenumber"
+                  placeholder="765-123-4567"
+                  required
+              /></label>
+              <p>Plumbing Problem:</p>
+              <label for="appliance"
+                ><input
+                  type="checkbox"
+                  id="appliance"
+                  name="appliance"
+                  value="Appliance"
+                />Appliance</label
+              >
+              <label for="clogged-drains"
+                ><input
+                  type="checkbox"
+                  id="clogged-drains"
+                  name="clogged-drains"
+                  value="Clogged Drain"
+                />Clogged Drain</label
+              >
+              <label for="plumbing-repairs"
+                ><input
+                  type="checkbox"
+                  id="plumbing-repairs"
+                  name="plumbing-repairs"
+                  value="Plumbing Repair"
+                />Plumbing Repair</label
+              >
+              <label for="new-construction"
+                ><input
+                  type="checkbox"
+                  id="new-construction"
+                  name="new-construction"
+                  value="New Construction"
+                />New Construction</label
+              >
+              <input type="submit" />
+            </form>
+          </div>
+        </div>
+      </main>
+      <section class="leave-a-review">
+        <h2>Leave a Review!</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus
+          mauris a orci consectetur, vel malesuada tellus volutpat. Donec a
+          tellus nec metus elementum suscipit eu vitae neque.
+        </p>
+        <textarea
+          name="review"
+          id="review"
+          cols="30"
+          rows="10"
+          placeholder="Received outstanding service? Thought the service could have been better? Let us know!"
+        ></textarea>
+        <input type="submit" />
+      </section>
+      <footer>
+        <p>Copyright &copy;</p>
+      </footer>
+    </div>
+  </body>
+</html>
