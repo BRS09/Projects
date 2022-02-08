@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cindy's Cleaning</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/1cbc65cc9e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="d-flex flex-row align-items-end">
+        <div class="logoDiv">
+          <a href="" class="d-block logoLink">
+            <img
+              id="companyLogo"
+              src="https://cdn.websites.hibu.com/44bd3b909054444890524341138e4db8/import/base/Satellite_1020932608.png"
+              alt=""
+              class="img-responsive ms-5 mb-4"
+            />
+          </a>
+        </div>
+        <div class="container text-end me-5 text-white fw-bold headerInfo">
+          <p class="mb-0 fs-4">
+            <i class="fas fa-map-marker-alt me-2"></i> Muncie, IN
+          </p>
+          <p class="mb-4 fs-4">
+            <i class="fas fa-phone-square-alt me-2"></i> 765-748-9107
+          </p>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light pb-0">
+      <div id="navBar" class="container-fluid bg-white">
+        <button
+          class="navbar-toggler my-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav w-100 d-flex flex-row justify-content-around text-center fs-5 navMenu"
+          >
+            <li class="active flex-fill nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="fas fa-house-user"></i> Home</a
+              >
+            </li>
+            <li class="flex-fill nav-item">
+              <a class="nav-link" href="residential.html">
+                <i class="fas fa-home"></i> Residential Services</a
+              >
+            </li>
+            <li class="nav-item flex-fill">
+              <a class="nav-link" href="commercial.html">
+                <i class="fas fa-building"></i> Commercial Services</a
+              >
+            </li>
+            <li class="nav-item flex-fill">
+              <a class="nav-link" href="contact.html">
+                <i class="fas fa-inbox"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="d-flex flex-column gap-5">
+      <div
+        id="imageCarousel"
+        class="carousel slide d-flex flex-row align-items-center bg-white"
+        data-bs-ride="carousel"
+      >
+        <div id="carousel" class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="9000">
+            <img
+              src="towfiqu-barbhuiya--9gPKrsbGmc-unsplash.jpg"
+              alt=""
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="9000">
+            <img
+              src="pexels-karolina-grabowska-4239130.jpg"
+              alt=""
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="9000">
+            <img
+              src="shutterstock_368560784.jpg"
+              alt=""
+              class="d-block w-100"
+            />
+          </div>
+        </div>
+        <div id="paraContainer" class="container-fluid">
+          <p class="text-center fs-5">
+            <span class="fw-bold"
+              >Covering all of your residential and commercial cleaning
+              needs</span
+            >
+            <br />
+            When your residence or place of business must be cleaned, you can
+            rely on the experts of Cindy's Cleaning. Yes, we are available for
+            odd hours such as overnights, weekends, after-hours, and more! Call
+            today for a FREE QUOTE!
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid hstack hStackOne gap-3 bg-light">
+        <div class="container-fluid formIntro p-4">
+          <h4 class="text-center fw-bold pb-2">
+            Your spotless home or business is calling. You should, too!
+          </h4>
+          <p class="text-center">
+            Say good-bye and good riddance to the chaos and clutter in your home
+            or place of business when you give us a call today and schedule your
+            <strong>FREE QUOTE</strong> or select a service to let us get
+            started immediately.
+          </p>
+        </div>
+        <div class="container-fluid align-self-center me-2 my-5 p-5 formDiv">
+          <p class="text-center mb-4">
+            If you have questions about any of our services, service areas, or
+            even to see if we're available for a particular date, you're welcome
+            to submit your inquiry by using the form supplied below. You will
+            receive a response within 72 business hours. Thank you!
+          </p>
+          <form action="">
+            <div class="form-floating mb-3">
+              <input
+                type="name"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Full Name"
+              />
+              <label for="floatingInput">Full Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="E-mail"
+              />
+              <label for="floatingInput">E-mail</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="tel"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Phone Number"
+              />
+              <label for="floatingInput">Phone Number</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control"
+                placeholder="Comments"
+                id="floatingTextarea"
+              ></textarea>
+              <label for="floatingTextarea">Comments</label>
+            </div>
+            <div class="form-floating">
+              <select
+                class="form-select"
+                id="floatingSelect"
+                aria-label="States"
+              >
+                <option value="">N/A</option>
+                <option value="AK">Alaska</option>
+                <option value="AL">Alabama</option>
+                <option value="AR">Arkansas</option>
+                <option value="AZ">Arizona</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DC">District of Columbia</option>
+                <option value="DE">Delaware</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="IA">Iowa</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MD">Maryland</option>
+                <option value="ME">Maine</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MO">Missouri</option>
+                <option value="MS">Mississippi</option>
+                <option value="MT">Montana</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="NE">Nebraska</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NV">Nevada</option>
+                <option value="NY">New York</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VA">Virginia</option>
+                <option value="VT">Vermont</option>
+                <option value="WA">Washington</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WV">West Virginia</option>
+                <option value="WY">Wyoming</option>
+              </select>
+              <label for="floatingSelect">State</label>
+            </div>
+            <div class="container-fluid text-center">
+              <button type="submit" class="btn btn-outline-light mt-4">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="container-fluid hstack hStackTwo gap-3 bg-light p-4">
+        <div class="container-fluid formDivTwo p-4 my-3 align-items-center">
+          <h2>Job Application</h2>
+          <form action="" method="post">
+            <div class="form-floating mb-3">
+              <input
+                type="name"
+                class="form-control"
+                id="floatingName"
+                placeholder="Full Name"
+              />
+              <label for="floatingName">Full Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingEmail"
+                placeholder="E-mail"
+              />
+              <label for="floatingEmail">E-mail</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="tel"
+                class="form-control"
+                id="floatingPhone"
+                placeholder="Phone Number"
+              />
+              <label for="floatingPhone">Phone Number</label>
+            </div>
+            <div class="mb-3 fileForm">
+              <label for="fileInput" class="mb-2">Upload your resume:</label>
+              <br />
+              <input
+                type="file"
+                id="fileInput"
+                name="fileInput"
+                accept="image/*, .pdf"
+              />
+            </div>
+            <button
+              type="submit"
+              class="btn btn-outline-primary"
+              id="submitButton"
+            >
+              Submit Application
+            </button>
+          </form>
+        </div>
+        <div class="container-fluid">
+          <h4 class="fw-bold text-center pb-2">Lorem ipsum dolor</h4>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            excepturi nemo nobis enim soluta quos recusandae possimus dolore
+            quaerat quibusdam at tempore, debitis accusamus quam sequi quas eius
+            explicabo nam.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="container-fluid row g-0 pt-5">
+      <div class="col-lg align-self-center text-center">
+        <p><strong>Contact Name:</strong> Cindy Harlan</p>
+        <p>
+          <strong>Address:</strong> 125 E. Charles St. - Suite 212 - Muncie, IN
+          47305
+        </p>
+        <p><strong>E-mail:</strong> harlancindy@yahoo.com</p>
+        <p><strong>Phone:</strong> 765-748-9107</p>
+        <p class="paymentOptions">
+          <strong>We Accept:</strong>
+          <i class="fab fa-cc-visa fa-2x align-middle"></i
+          ><i class="fab fa-cc-mastercard fa-2x align-middle"></i
+          ><i class="fab fa-cc-discover fa-2x align-middle"></i
+          ><i class="fab fa-cc-amex fa-2x align-middle"></i>
+        </p>
+      </div>
+      <div class="col-lg align-self-center text-center">
+        <iframe
+          id="googlemapframe"
+          width="80%"
+          height="300"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="http://dh-static-files.s3.amazonaws.com/dev/test/ybsitecenter_map.html?session=oeyhyr2cypzqqmibh0hwk&amp;title1=Cindy%27s%20Cleaning%20125%20E.%20Charles%20St.%20Suite%20212%20Muncie%2C%20%20IN%20%20%2047305%20^lat1=40.190932^lon1=-85.385646^center=0^zoom=16^mapType=Road^width=auto^height=300^direction=false^client=gme-yelllimited&amp;v=3.25^channel=WPPD^sensor=false^numstyles=0^parentUrl=http://www.cindyscleaningmuncie.com/"
+        ></iframe>
+      </div>
+      <div class="container-fluid text-center pt-5 pb-2">
+        <small class="fw-bold"
+          >&copy; 2021 - Created by: braydenscott0933@gmail.com</small
+        >
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

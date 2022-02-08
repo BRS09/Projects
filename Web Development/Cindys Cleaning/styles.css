@@ -1,0 +1,263 @@
+body {
+  height: 100% !important;
+  background-color: rgb(255, 80, 153) !important;
+}
+header {
+  background-color: rgb(255, 80, 153);
+}
+#companyLogo {
+  height: 150px !important;
+}
+header div div:nth-child(2) {
+  text-shadow: -1px 2px 5px black;
+}
+#imageCarousel {
+  box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.267);
+}
+#carousel {
+  flex: 1;
+  width: 100% !important;
+  height: 400px !important;
+}
+#carousel img {
+  width: 100% !important;
+  height: 400px !important;
+  object-fit: cover !important;
+  object-position: bottom !important;
+}
+#paraContainer {
+  flex: 0.7;
+}
+#cards {
+  box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.267);
+}
+#cardOne,
+#cardTwo {
+  border-radius: 1em !important;
+  box-shadow: 0px 0px 7px rgb(165, 165, 165);
+}
+#cardOne img,
+#cardTwo img {
+  border-top-left-radius: 1em !important;
+  border-top-right-radius: 1em !important;
+}
+#cardOne .btn,
+#cardTwo .btn {
+  color: rgb(255, 80, 153);
+  border-color: rgb(255, 80, 153);
+}
+#cardOne .btn:hover,
+#cardTwo .btn:hover {
+  background-color: rgb(255, 80, 153);
+  color: white !important;
+  animation: fadeIn 580ms linear;
+}
+.paymentOptions i {
+  margin-right: 1% !important;
+  margin-left: 1% !important;
+}
+footer div:first-of-type {
+  flex: 1;
+}
+footer div:nth-child(2) {
+  flex: 1;
+}
+.resInfoContainer {
+  box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.267);
+}
+.residentialOne,
+.residentialOne img {
+  border-radius: 1.5em;
+}
+.residentialOne img {
+  width: 90% !important;
+}
+.resInfoContainerTwo {
+  box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.267);
+  overflow: hidden !important;
+  position: relative !important;
+}
+.callCindy {
+  flex: 1 1 100%;
+  background-image: url(https://cdn.hovia.com/app/uploads/black-marble-textures-plain-820x532.jpg);
+  color: white !important;
+  text-shadow: 2px 1px rgb(0, 0, 0);
+  width: 100% !important;
+  height: 200px !important;
+  background-size: contain !important;
+  background-position-x: left;
+  border-radius: 1em !important;
+}
+.callCindyTwo {
+  padding: 2% !important;
+  border-radius: 1em !important;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.459);
+  background-image: url(https://cdn.hovia.com/app/uploads/black-marble-textures-plain-820x532.jpg);
+  background-size: contain !important;
+  color: white;
+  text-shadow: 2px 1px rgb(0, 0, 0) !important;
+}
+.vStackOne {
+  box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.267);
+}
+.vStackTwo {
+  box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.267);
+}
+.hStackOne,
+.hStackTwo {
+  box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.267);
+}
+.formIntro {
+  border-radius: 1em !important;
+  width: 50% !important;
+}
+.formDiv,
+.formDivTwo {
+  background-color: rgb(238, 238, 238) !important;
+  box-shadow: 0px 0px 10px rgba(122, 122, 122, 0.459);
+  border-radius: 1em !important;
+  width: 50% !important;
+}
+.formDivTwo {
+  width: 100% !important;
+  height: 100% !important;
+}
+.formDiv button,
+#submitButton {
+  border-color: rgb(255, 80, 153) !important;
+  color: rgb(255, 80, 153) !important;
+}
+.formDiv button:hover,
+#submitButton:hover {
+  background-color: rgb(255, 80, 153);
+  color: white !important;
+  animation: fadeIn 580ms linear;
+}
+@keyframes fadeIn {
+  from {
+    background-color: rgba(255, 80, 153, 0);
+  }
+  to {
+    background-color: rgb(255, 80, 153);
+  }
+}
+@media (max-width: 320px) {
+  .carousel-item:nth-child(3) {
+    width: 100% !important;
+    height: 70% !important;
+  }
+}
+
+@media (min-width: 310px) and (max-width: 414px) {
+  header div:first-of-type {
+    flex-flow: column !important;
+  }
+  header .headerInfo {
+    text-align: center !important;
+  }
+  header .logoDiv {
+    width: 83% !important;
+  }
+  header #companyLogo {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  nav .navMenu {
+    flex-flow: column !important;
+    text-align: center !important;
+    margin-top: 1% !important;
+  }
+  .navMenu li {
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+  }
+  nav #navBar {
+    justify-content: center !important;
+  }
+  #imageCarousel {
+    flex-flow: column !important;
+  }
+  #carousel {
+    max-height: 210px !important;
+  }
+  #carousel img {
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+  .carousel-item:nth-child(3) {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  #paraContainer {
+    margin-top: 5% !important;
+  }
+  #cards {
+    flex-flow: column !important;
+    align-items: center !important;
+  }
+  #cardOne,
+  #cardTwo {
+    width: 18.5rem !important;
+    height: 25rem !important;
+    overflow: scroll !important;
+  }
+  #cardTwo {
+    margin-top: 1% !important;
+  }
+  footer {
+    flex-flow: column !important;
+  }
+  footer div:nth-child(1) {
+    margin-top: 3% !important;
+  }
+  footer div:nth-child(2) {
+    flex: 1 1 100% !important;
+  }
+  .hStackOne,
+  .hStackTwo {
+    display: flex !important;
+    flex-flow: column !important;
+  }
+  .hStackTwo div:nth-child(2) {
+    padding: 0 !important;
+  }
+  .formIntro {
+    width: 90% !important;
+  }
+  .formDiv {
+    margin: 0 !important;
+    width: 90% !important;
+    margin-top: 0 !important;
+    margin-bottom: 15% !important;
+  }
+  .list-group {
+    width: 100% !important;
+  }
+  .callCindy {
+    height: 100% !important;
+  }
+  .resInfoContainerTwo {
+    flex-flow: column !important;
+  }
+  .resInfoContainerTwo div:nth-child(1) {
+    order: 2 !important;
+    padding: 3% !important;
+  }
+  .vStackTwo p {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-top: 15% !important;
+  }
+  .callCindyTwo {
+    padding: 5% !important;
+    margin-top: 1% !important;
+  }
+}
+@media (min-width: 1700px) {
+  #carousel img {
+    height: 500px !important;
+    object-fit: cover !important;
+  }
+}
